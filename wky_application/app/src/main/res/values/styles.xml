@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/colorPrimary</item>
+
+        <item name="colorControlNormal">@color/iron</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorHint">@color/iron</item>
+
+        <item name="colorButtonNormal">@color/primary_darker</item>
+    </style>
+    <!--文字样式-->
+    <style name="Text">
+        <item name="android:textSize">@dimen/text14</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Text.Black">
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+    <style name="Text.White">
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+    <style name="Text.Brown">
+        <item name="android:textColor">@color/textBrown</item>
+    </style>
+    <style name="Text.Maple">
+        <item name="android:textColor">@color/textMaple</item>
+    </style>
+    <style name="Text.Red">
+        <item name="android:textColor">@color/textRed</item>
+    </style>
+    <style name="Text.Gray">
+        <item name="android:textColor">@color/textGray</item>
+    </style>
+    <style name="Text.Grayish">
+        <item name="android:textColor">@color/textGrayish</item>
+    </style>
+
+    <!--分割线样式-->
+    <style name="Divide">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divide_height</item>
+    </style>
+
+    <style name="Divide.Default">
+        <item name="android:background">@color/colorDivide</item>
+    </style>
+
+    <style name="Divide.Default.Margin">
+        <item name="android:layout_marginLeft">@dimen/view_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_margin</item>
+    </style>
+
+</resources>

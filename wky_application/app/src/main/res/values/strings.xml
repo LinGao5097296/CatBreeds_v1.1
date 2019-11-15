@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CatBreed</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--other-->
+    <string name="rmb">¥</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="register">注册</string>
+
+    <string name="finish">完成</string>
+    <string name="cancel">返回</string>
+
+    <string name="save">保存</string>
+
+    <string name="icon">头像</string>
+    <string name="username">用户名</string>
+    <string name="sex">性别</string>
+    <string name="age">年龄</string>
+    <string name="phone">电话</string>
+    <string name="email">邮箱</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="not_set">未设置</string>
+    <string name="year">岁</string>
+    <string name="setting">设置</string>
+    <!--Loading-->
+    <string name="load_msg">正在加载中&#8230;</string>
+    <string name="load_update">正在修改中&#8230;</string>
+    <string name="load_delete">正在删除中&#8230;</string>
+    <string name="load_send_code">正在发送验证码&#8230;</string>
+    <string name="load_verify">正在验证中&#8230;</string>
+    <string name="load_switch">正在切换中&#8230;</string>
+    <string name="load_login">正在登录中&#8230;</string>
+    <string name="load_sign">正在注册中&#8230;</string>
+    <string name="schedule_event_detail_setting">添加</string>
+
+    <!--about activity-->
+    <string name="about">关本系统</string>
+    <string name="about_introduce">实时管理\n\n
+        ------主要功能------\n\n
+    </string>
+    <string name="about_introduce2">ps:请勿在软件中填写个人隐私信息</string>
+    <string name="app_name_with_introduce">图书推荐管理系统</string>
+    <string name="developers">开发人员:(微信)LangZi_2023\n
+        -------------------\n
+
+        \n-------------------\n
+        欢迎大家star和fork
+    </string>
+</resources>

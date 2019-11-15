@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_libdetails">
+    <ImageView
+        android:id="@+id/item_iv_cover"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="4dp"/>
+    <TextView
+        android:id="@+id/et_new_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:visibility="gone"
+        android:textSize="18sp"
+
+        android:padding="@dimen/space_16dp"/>
+
+    <TextView
+        android:id="@+id/et_new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_toRightOf="@+id/item_iv_cover"
+        android:hint="请输入标题"
+        android:textSize="18sp"
+        android:padding="@dimen/space_16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_new_title"
+        android:paddingLeft="@dimen/space_16dp"
+        android:paddingRight="@dimen/space_16dp"
+        android:layout_toRightOf="@+id/item_iv_cover"
+        android:id="@+id/time"
+        android:paddingBottom="@dimen/space_16dp">
+
+        <TextView
+            android:id="@+id/tv_new_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            tools:text="2018-11-16"/>
+
+        <TextView
+            android:id="@+id/tv_new_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            tools:text="资讯交流"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/et_new_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/item_iv_cover"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/bg_remark_edit_text"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:scrollbars="vertical"
+        android:layout_marginRight="@dimen/space_10dp"/>
+
+</RelativeLayout>
